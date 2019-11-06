@@ -1,0 +1,13 @@
+Trojuhelniky at kresli Leonardo
+Ctverce/obdelniky at kresli Donatello
+
+1. nakresliObdelnik(double delkaStranyA, double delkaStranyB)
+2. nakresliCtverec(double delkaStrany)
+3. nakresliCtverec(double delkaStrany, Color barvaCary)
+4. nakresliRovnostrannyTrojuhelnik(double delkaStrany)
+5. nakresliSlunicko(int pocetPaprsku, Turtle kresliciZelva)                       
+6. nakresliTrojuhelnik(double delkaStranyA,
+                       double delkaStranyB,
+                       double delkaStranyC,
+                       Color barva)
+
