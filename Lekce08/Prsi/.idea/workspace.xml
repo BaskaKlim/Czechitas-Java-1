@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5430fc9c-6b5e-4450-bbfd-244c1a71dd06" name="Default Changelist" comment="" />
+    <list default="true" id="5969d0fc-e1c8-4119-8b4c-684315df0c58" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.idea/" />
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -12,21 +12,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cz/czechitaa/budik/SpousteciTrida.java">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cz/czechitas/prsi/SpousteciTrida.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="462">
+              <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cz/czechitaa/budik/stopwatch.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cz/czechitas/prsi/Karta.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="132">
+              <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -43,8 +43,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/cz/czechitaa/budik/stopwatch.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cz/czechitaa/budik/SpousteciTrida.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/czechitas/prsi/Karta.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/czechitas/prsi/SpousteciTrida.java" />
       </list>
     </option>
   </component>
@@ -67,68 +67,73 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="ClockAlarm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ClockAlarm" type="462c0819:PsiDirectoryNode" />
+              <item name="Prsi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Prsi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ClockAlarm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ClockAlarm" type="462c0819:PsiDirectoryNode" />
+              <item name="Prsi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Prsi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ClockAlarm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ClockAlarm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ClockAlarm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ClockAlarm" type="462c0819:PsiDirectoryNode" />
+              <item name="Prsi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Prsi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ClockAlarm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ClockAlarm" type="462c0819:PsiDirectoryNode" />
+              <item name="Prsi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Prsi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cz" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ClockAlarm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ClockAlarm" type="462c0819:PsiDirectoryNode" />
+              <item name="Prsi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Prsi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cz" type="462c0819:PsiDirectoryNode" />
-              <item name="czechitaa" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ClockAlarm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ClockAlarm" type="462c0819:PsiDirectoryNode" />
+              <item name="Prsi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Prsi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cz" type="462c0819:PsiDirectoryNode" />
-              <item name="czechitaa" type="462c0819:PsiDirectoryNode" />
-              <item name="budik" type="462c0819:PsiDirectoryNode" />
+              <item name="czechitas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Prsi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Prsi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cz" type="462c0819:PsiDirectoryNode" />
+              <item name="czechitas" type="462c0819:PsiDirectoryNode" />
+              <item name="prsi" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573205411130" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574632901136" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Java-Training\Projects\Java-1\Lekce08\Prsi\src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -144,11 +149,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5430fc9c-6b5e-4450-bbfd-244c1a71dd06" name="Default Changelist" comment="" />
-      <created>1573153486028</created>
+      <changelist id="5969d0fc-e1c8-4119-8b4c-684315df0c58" name="Default Changelist" comment="" />
+      <created>1574630776537</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1573153486028</updated>
+      <updated>1574630776537</updated>
     </task>
     <servers />
   </component>
@@ -156,46 +161,46 @@
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26378378" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24972972" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32897863" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32897863" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/czechitaa/budik/SpousteciTrida.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/czechitas/prsi/Karta.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="132">
+          <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/czechitaa/budik/stopwatch.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/czechitas/prsi/SpousteciTrida.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="462">
+          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
         </state>
       </provider>
     </entry>
