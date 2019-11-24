@@ -1,15 +1,16 @@
 package cz.czechitas.ludia;
 
+import java.io.*;
 import java.util.*;
 import com.sun.org.apache.bcel.internal.generic.*;
 
 public class SpousteciTrida {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 
         List<String> zoznamMien = new ArrayList<>();
 
-        Scanner nacitacRiadkov = new Scanner(System.in);
+        Scanner nacitacRiadkov = new Scanner( new File("Zoznam"));
         while (true) {
             String meno = nacitacRiadkov.nextLine();
             if (meno.isEmpty()) break;
