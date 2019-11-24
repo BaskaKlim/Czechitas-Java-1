@@ -5,15 +5,20 @@ import java.util.*;
 public class SpousteciTrida {
 
     public static void main(String[] args) {
-        Karta mojaKarta1 = new Karta(7, "piko");
-        Karta mojaKarta2 = new Karta(10, "srdce");
+        // Karta mojaKarta1 = new Karta(7, "piko");
+        //  Karta mojaKarta2 = new Karta(10, "srdce");
 
-        // vytvaranie noveho zoznamu
+        // TODO: vytvaranie noveho zoznamu
         List<Karta> balicekKaret = new ArrayList<>();
-        balicekKaret.add(mojaKarta1);
-        balicekKaret.add(mojaKarta2);
-        balicekKaret.add(new Karta(12, "listy"));
-        balicekKaret.add(new Karta(14, "zalud"));
+        // TODO: pridanie vsetkych kariet do balika
+
+        for (int i = 7; i <= 14; i++) {
+
+            balicekKaret.add(new Karta(i, "listy"));
+            balicekKaret.add(new Karta(i, "zalud"));
+            balicekKaret.add(new Karta(i, "srdce"));
+            balicekKaret.add(new Karta(i, "piko"));
+        }
 
         Random nahodnyGenerator = new Random();
         for (int i = 0; i < 1000; i++) {
