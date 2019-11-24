@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69d98005-cee4-452a-bb30-653439fb9345" name="Default Changelist" comment="" />
+    <list default="true" id="4456fdab-5751-4a3a-a727-08c65c84c44b" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.idea/" />
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -11,31 +11,25 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Tenis$Run_SpousteciTrida.ic" NAME="Run SpousteciTrida Coverage Results" MODIFIED="1573151427491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cz/czechitas/karty/Karta.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cz/czechitas/tenis/SpousteciTrida.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="9" selection-start-line="12" selection-start-column="7" selection-end-line="14" selection-end-column="9" />
+            <state relative-caret-position="374">
+              <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cz/czechitas/karty/KartickaPexeso.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cz/czechitas/tenis/TennisGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="29" column="123" selection-start-line="29" selection-start-column="123" selection-end-line="29" selection-end-column="123" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cz/czechitas/karty/SpousteciTrida.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+            <state relative-caret-position="173">
+              <caret line="24" column="45" lean-forward="true" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -52,9 +46,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/cz/czechitas/karty/Karta.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cz/czechitas/karty/SpousteciTrida.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cz/czechitas/karty/KartickaPexeso.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/czechitas/tenis/SpousteciTrida.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/czechitas/tenis/TennisGame.java" />
       </list>
     </option>
   </component>
@@ -66,7 +59,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="8" />
     <option name="y" value="9" />
     <option name="width" value="1946" />
@@ -77,71 +70,71 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Karty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Karty" type="462c0819:PsiDirectoryNode" />
+              <item name="Tenis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tenis" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Karty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Karty" type="462c0819:PsiDirectoryNode" />
+              <item name="Tenis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tenis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Karty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Karty" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Karty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Karty" type="462c0819:PsiDirectoryNode" />
+              <item name="Tenis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tenis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Karty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Karty" type="462c0819:PsiDirectoryNode" />
+              <item name="Tenis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tenis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cz" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Karty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Karty" type="462c0819:PsiDirectoryNode" />
+              <item name="Tenis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tenis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cz" type="462c0819:PsiDirectoryNode" />
-              <item name="czechitas" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Karty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Karty" type="462c0819:PsiDirectoryNode" />
+              <item name="Tenis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tenis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cz" type="462c0819:PsiDirectoryNode" />
               <item name="czechitas" type="462c0819:PsiDirectoryNode" />
-              <item name="karty" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tenis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tenis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cz" type="462c0819:PsiDirectoryNode" />
+              <item name="czechitas" type="462c0819:PsiDirectoryNode" />
+              <item name="tenis" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573116211788" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573153430724" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -157,25 +150,28 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="69d98005-cee4-452a-bb30-653439fb9345" name="Default Changelist" comment="" />
-      <created>1573113172454</created>
+      <changelist id="4456fdab-5751-4a3a-a727-08c65c84c44b" name="Default Changelist" comment="" />
+      <created>1573147398893</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1573113172454</updated>
+      <updated>1573147398893</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
-    <editor active="true" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2589189" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24972972" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32897863" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32897863" />
@@ -183,39 +179,29 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32972974" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/czechitas/karty/Karta.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/czechitas/tenis/SpousteciTrida.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="9" selection-start-line="12" selection-start-column="7" selection-end-line="14" selection-end-column="9" />
+        <state relative-caret-position="374">
+          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/czechitas/karty/SpousteciTrida.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/czechitas/tenis/TennisGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/czechitas/karty/KartickaPexeso.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="29" column="123" selection-start-line="29" selection-start-column="123" selection-end-line="29" selection-end-column="123" />
+        <state relative-caret-position="173">
+          <caret line="24" column="45" lean-forward="true" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -271,7 +257,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Karty</last-edited>
+          <last-edited>Tenis</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
