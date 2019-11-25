@@ -15,7 +15,7 @@ public class HlavniOkno extends JFrame {
     JTextField txtKralici;
     JButton btnVypocitat;
     JLabel labPocetNoh;
-    JTextField txtPocetNohov;
+    JTextField txtPocetNoh;
     JLabel labPocetHlav;
     JTextField txtPocetHlav;
     // JFormDesigner - End of variables declaration  //GEN-END:variables
@@ -38,7 +38,7 @@ public class HlavniOkno extends JFrame {
         // TODO: vypisanie do popup okna
         // JOptionPane.showMessageDialog(this,"pocet nohou je " + pocetNoh + " pocet hlav je " + pocetHlav);
         // TODO: vypisanie do text fieldu
-        txtPocetNohov.setText(Integer.toString(pocetNoh));
+        txtPocetNoh.setText(Integer.toString(pocetNoh));
         txtPocetHlav.setText(Integer.toString(pocetHlav));
 
     }
@@ -53,7 +53,7 @@ public class HlavniOkno extends JFrame {
         txtKralici = new JTextField();
         btnVypocitat = new JButton();
         labPocetNoh = new JLabel();
-        txtPocetNohov = new JTextField();
+        txtPocetNoh = new JTextField();
         labPocetHlav = new JLabel();
         txtPocetHlav = new JTextField();
 
@@ -98,13 +98,19 @@ public class HlavniOkno extends JFrame {
         contentPane.add(btnVypocitat, "cell 1 2");
 
         //---- labPocetNoh ----
-        labPocetNoh.setText("Pocet nohov:");
+        labPocetNoh.setText("Pocet noh:");
         contentPane.add(labPocetNoh, "cell 0 3");
-        contentPane.add(txtPocetNohov, "cell 1 3");
+
+        //---- txtPocetNoh ----
+        txtPocetNoh.setEditable(false);
+        contentPane.add(txtPocetNoh, "cell 1 3");
 
         //---- labPocetHlav ----
         labPocetHlav.setText("Pocet hlav: ");
         contentPane.add(labPocetHlav, "cell 0 4");
+
+        //---- txtPocetHlav ----
+        txtPocetHlav.setEditable(false);
         contentPane.add(txtPocetHlav, "cell 1 4");
         pack();
         setLocationRelativeTo(null);

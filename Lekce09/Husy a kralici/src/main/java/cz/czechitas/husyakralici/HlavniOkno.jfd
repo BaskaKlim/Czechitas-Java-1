@@ -47,12 +47,13 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "labPocetNoh"
-				"text": "Pocet nohov:"
+				"text": "Pocet noh:"
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
 				"value": "cell 0 3"
 			} )
 			add( new FormComponent( "javax.swing.JTextField" ) {
-				name: "txtPocetNohov"
+				name: "txtPocetNoh"
+				"editable": false
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
 				"value": "cell 1 3"
 			} )
@@ -64,6 +65,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JTextField" ) {
 				name: "txtPocetHlav"
+				"editable": false
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
 				"value": "cell 1 4"
 			} )
