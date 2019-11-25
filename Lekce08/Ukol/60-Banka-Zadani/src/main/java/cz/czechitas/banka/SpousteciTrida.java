@@ -7,9 +7,9 @@ public class SpousteciTrida {
         PovolenyDebetTest tester2 = new PovolenyDebetTest();
         SporiciUcetTest tester3 = new SporiciUcetTest();
 
-       tester1.otestujBeznyUcet();
-//        tester2.otestujPovolenyDebet();
-//        tester3.otestujSporiciUcet();
+        tester1.otestujBeznyUcet();
+        tester2.otestujPovolenyDebet();
+        tester3.otestujSporiciUcet();
     }
 
 }

@@ -2,7 +2,7 @@ package cz.czechitas.banka;
 
 public class PovolenyDebetTest {
 
-/*
+
     public void otestujPovolenyDebet() {
         BeznyUcet ucet3 = new BeznyUcet(6600.0);
         otestujJedenBeznyUcetSDebetem(ucet3, 6600.0, 0.0, 6400.0, 20000.0);
@@ -65,6 +65,6 @@ public class PovolenyDebetTest {
             throw new AssertionError(errorMessage);
         }
     }
-*/
+
 
 }

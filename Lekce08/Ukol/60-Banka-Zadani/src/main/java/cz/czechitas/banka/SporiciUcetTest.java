@@ -8,7 +8,6 @@ import net.sevecek.util.*;
 
 public class SporiciUcetTest {
 
-/*
     public void otestujSporiciUcet() {
         SporiciUcet ucet5 = new SporiciUcet(5000.0);
         otestujJedenSporiciUcet(ucet5, 5000.0);
@@ -184,6 +183,5 @@ public class SporiciUcetTest {
     }
 
     private String capturedConsoleOutput;
-*/
 
 }

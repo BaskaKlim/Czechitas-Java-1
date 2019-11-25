@@ -2,24 +2,35 @@ package cz.czechitas.banka;
 
 public class BeznyUcet {
 
-    // TODO: Metoda vyberPenize(...) odečte od zůstatku částku, která přijde jako vstupní parametr metody a vrátí true.
-    //Pokud by byla metod zavolána se zápornou částkou, vypište chybovou hlášku, neměňte zůstatek a vraťte false.
-    //V případě, že jen není dostatek peněz na účtu pro výběr, chybovou hlášku nevypisujte, ale zůstatek také neměňte a vraťte false.
-    // TODO: Metoda vlozPenize(...) k zůstatku peníze naopak přičte a vrátí true, což znamená, že se operace povedla.
-    //Ani tato metoda neakceptuje zápornou hodnotu částky. V případě záporné částky tedy vypište chybovou hlášku, zůstatek neměňte a vraťte false.
-
     private double zustatek;
+    private double limitPrecerpani;
 
+    //constructors
     public BeznyUcet(double pociatocnaCiastka) {
         this.zustatek = pociatocnaCiastka;
+    }
+
+    public BeznyUcet(double pociatocnaCiastka, double pociatocniLimitPrecerpani) {
+        this.zustatek = pociatocnaCiastka;
+        this.limitPrecerpani = pociatocniLimitPrecerpani;
+    }
+
+    // gettrers
+    public double getLimitPrecerpani() {
+        return limitPrecerpani;
     }
 
     public double getZustatek() {
         return zustatek;
     }
 
+    public double getPouzitelnyZustatek() {
+        return zustatek + limitPrecerpani;
+    }
+
+    // methods
     public boolean vyberPenize(double ciastka) {
-        if (ciastka > 0 && ciastka < zustatek) {
+        if (ciastka > 0 && ciastka < zustatek + limitPrecerpani) {
             zustatek = zustatek - ciastka;
             return true ;
         } else if (ciastka < 0) {
