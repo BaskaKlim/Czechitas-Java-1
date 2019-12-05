@@ -50,6 +50,7 @@ new FormModel {
 				name: "btnVypocitat"
 				"text": "Vypocitat"
 				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "priStisknutiButtonuVypocitaj", true ) )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "priStisknutiPrepocitat", true ) )
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
 				"value": "cell 2 3"
 			} )

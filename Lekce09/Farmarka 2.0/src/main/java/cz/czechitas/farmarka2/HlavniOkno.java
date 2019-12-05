@@ -7,6 +7,10 @@ import net.miginfocom.swing.*;
 
 public class HlavniOkno extends JFrame {
 
+    public static final double MNOZSTVO_MRKVE = 0.5;
+    public static final double MNOZSTVO_PSENICE = 0.25;
+    public static final int POCET_DNI = 183;
+
     // JFormDesigner - Variables declaration - DO NOT MODIFY  //GEN-BEGIN:variables
     // Generated using JFormDesigner non-commercial license
     JLabel labNadpis;
@@ -39,8 +43,8 @@ public class HlavniOkno extends JFrame {
         String pocetKralikovString = txtPocetKraliku.getText();
         double pocetKralikov = Double.parseDouble(pocetKralikovString);
 
-        double hmotnostMrkve = pocetKralikov * 0.5 * 183;
-        double hmotnostPsenice = pocetHus * 0.25 * 183;
+        double hmotnostMrkve = pocetKralikov *MNOZSTVO_MRKVE * POCET_DNI;
+        double hmotnostPsenice = pocetHus * MNOZSTVO_PSENICE * POCET_DNI;
 
         double pocetRadkuMrkve = hmotnostMrkve / 5;
         double pocetRadkuPsenice = hmotnostPsenice / 2;

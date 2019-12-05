@@ -7,6 +7,10 @@ import net.miginfocom.swing.*;
 
 public class HlavniOkno extends JFrame {
 
+    public static final double MNOZSTVO_MRKVE = 0.5;
+    public static final double MNOZSTVO_PSENICE = 0.25;
+    public static final int POCET_DNI = 183;
+
     // JFormDesigner - Variables declaration - DO NOT MODIFY  //GEN-BEGIN:variables
     // Generated using JFormDesigner non-commercial license
     JLabel labNadpisHusy;
@@ -72,8 +76,8 @@ public class HlavniOkno extends JFrame {
             pocetKraliku = pocetKralikovSamcu + pocetKralikovSamic;
         }
 
-        double hmotnostMrkve = pocetKraliku * 0.5 * 183;
-        double hmotnostPsenice = pocetHus * 0.25 * 183;
+        double hmotnostMrkve = pocetKraliku * MNOZSTVO_MRKVE * POCET_DNI;
+        double hmotnostPsenice = pocetHus * MNOZSTVO_PSENICE * POCET_DNI;
 
         double pocetRadkuMrkve = hmotnostMrkve / 5;
         double pocetRadkuPsenice = hmotnostPsenice / 2;
@@ -121,6 +125,7 @@ public class HlavniOkno extends JFrame {
         //======== this ========
         setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("Farmarka 3.0");
+        setFont(new Font("Dialog", Font.BOLD, 12));
         Container contentPane = getContentPane();
         contentPane.setLayout(new MigLayout(
             "insets rel,hidemode 3",
@@ -151,14 +156,14 @@ public class HlavniOkno extends JFrame {
 
         //---- labNadpisHusy ----
         labNadpisHusy.setText("Husy");
-        labNadpisHusy.setFont(labNadpisHusy.getFont().deriveFont(labNadpisHusy.getFont().getSize() + 7f));
+        labNadpisHusy.setFont(labNadpisHusy.getFont().deriveFont(labNadpisHusy.getFont().getStyle() | Font.BOLD, labNadpisHusy.getFont().getSize() + 8f));
         labNadpisHusy.setHorizontalTextPosition(SwingConstants.CENTER);
         labNadpisHusy.setHorizontalAlignment(SwingConstants.LEFT);
         contentPane.add(labNadpisHusy, "cell 0 0 2 1");
 
         //---- labNadpisKralici ----
         labNadpisKralici.setText("Kralici");
-        labNadpisKralici.setFont(labNadpisKralici.getFont().deriveFont(labNadpisKralici.getFont().getSize() + 7f));
+        labNadpisKralici.setFont(labNadpisKralici.getFont().deriveFont(labNadpisKralici.getFont().getStyle() | Font.BOLD, labNadpisKralici.getFont().getSize() + 8f));
         labNadpisKralici.setHorizontalTextPosition(SwingConstants.CENTER);
         labNadpisKralici.setHorizontalAlignment(SwingConstants.LEFT);
         contentPane.add(labNadpisKralici, "cell 2 0 2 1");
@@ -194,7 +199,7 @@ public class HlavniOkno extends JFrame {
 
         //---- labNadpisCelkovyPocet ----
         labNadpisCelkovyPocet.setText("Celkovy pocet po sezone pred zimou");
-        labNadpisCelkovyPocet.setFont(labNadpisCelkovyPocet.getFont().deriveFont(labNadpisCelkovyPocet.getFont().getSize() + 7f));
+        labNadpisCelkovyPocet.setFont(labNadpisCelkovyPocet.getFont().deriveFont(labNadpisCelkovyPocet.getFont().getStyle() | Font.BOLD, labNadpisCelkovyPocet.getFont().getSize() + 8f));
         labNadpisCelkovyPocet.setHorizontalTextPosition(SwingConstants.CENTER);
         labNadpisCelkovyPocet.setHorizontalAlignment(SwingConstants.LEFT);
         contentPane.add(labNadpisCelkovyPocet, "cell 0 6 4 1");
@@ -219,7 +224,7 @@ public class HlavniOkno extends JFrame {
 
         //---- labNadpisPotraviny ----
         labNadpisPotraviny.setText("Potrebne potraviny:");
-        labNadpisPotraviny.setFont(labNadpisPotraviny.getFont().deriveFont(labNadpisPotraviny.getFont().getSize() + 7f));
+        labNadpisPotraviny.setFont(labNadpisPotraviny.getFont().deriveFont(labNadpisPotraviny.getFont().getStyle() | Font.BOLD, labNadpisPotraviny.getFont().getSize() + 8f));
         labNadpisPotraviny.setHorizontalAlignment(SwingConstants.LEFT);
         contentPane.add(labNadpisPotraviny, "cell 0 8 4 1");
 

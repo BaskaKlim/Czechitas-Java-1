@@ -12,13 +12,14 @@ new FormModel {
 			"defaultCloseOperation": 2
 			"title": "Farmarka 3.0"
 			"$locationPolicy": 1
+			"font": new java.awt.Font( "Dialog", 1, 12 )
 			auxiliary() {
 				"JavaCodeGenerator.postInitCode": "this.contentPane = (JPanel) this.getContentPane();\nthis.contentPane.setBackground(this.getBackground());\nLayoutManager layout = this.contentPane.getLayout();\nif (layout instanceof MigLayout) {\n    this.migLayoutManager = (MigLayout) layout;\n}\n"
 			}
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "labNadpisHusy"
 				"text": "Husy"
-				"font": &SwingDerivedFont0 new com.jformdesigner.model.SwingDerivedFont( null, 0, 7, false )
+				"font": &SwingDerivedFont0 new com.jformdesigner.model.SwingDerivedFont( null, 1, 8, false )
 				"horizontalTextPosition": 0
 				"horizontalAlignment": 2
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
